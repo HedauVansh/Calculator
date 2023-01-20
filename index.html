@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="calculator">
+            <div class="display">
+            <input id="display" type="text">
+            </div>
+            <div class="button">
+                <button data-num="1" class="btn">1</button>
+                <button data-num="2" class="btn">2</button>
+                <button data-num="3" class="btn">3</button>
+                <button data-num="4" class="btn">4</button>
+                <button data-num="5" class="btn">5</button>
+                <button data-num="6" class="btn">6</button>
+                <button data-num="7" class="btn">7</button>
+                <button data-num="8" class="btn">8</button>
+                <button data-num="9" class="btn">9</button>
+                <button data-num="0" class="btn">0</button>
+                
+                <br>
+                <label for="">operation -</label>
+                    <br>
+                <button data-num="+" id="add" class="btn">+</button>
+                <button data-num="-" id="sub" class="btn">-</button>
+                <br>
+                <button id="operation" onclick="screen.value =eval(screen.value)">calculate</button>
+                
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
